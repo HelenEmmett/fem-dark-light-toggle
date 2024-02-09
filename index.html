@@ -1,87 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script defer type="text/javascript" src="js/scripts.js"></script>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+
 </head>
 <body>
-
-  Social Media Dashboard
-  Total Followers: 23,004
-
-  Dark Mode
-
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
+    <header id="header" class="container">
+        <div id="logo">
+            <h1>Social Media Dashboard</h1>
+            <h3>Total Followers: 23,004</h3>
+        </div>
+        <div id="mode">Dark Mode</div>
+    </header>
+    <main>
+        <section class="container grid-container">
+            <div class="card">
+                @nathanf
+                1987
+                Followers
+                12 Today
+            </div>
+            <div class="card">
+                @nathanf
+                1044
+                Followers
+                99 Today
+            </div>
+            <div class="card">
+                @realnathanf
+                11k
+                Followers
+                1099 Today
+            </div>
+            <div class="card">
+                Nathan F.
+                8239
+                Subscribers
+                144 Today
+            </div>
+        </section>
+        <section class="container grid-container">
+            <h2>Overview - Today</h2>
+            <div class="card">
+                Page Views
+                87
+                3%
+            </div>
+            <div class="card">
+                Likes
+                52
+                2%
+            </div>
+            <div class="card">
+                Likes
+                5462
+                2257%
+            </div>
+            <div class="card">
+                Profile Views
+                52k
+                1375%
+            </div>
+            <div class="card">
+                Retweets
+                117
+                303%
+            </div>
+            <div class="card">
+                Likes
+                507
+                553%
+            </div>
+            <div class="card">
+                Likes
+                107
+                19%
+            </div>
+            <div class="card">
+                Total Views
+                1407
+                12%
+            </div>
+        </section>
+    </main>
+  <div class="attribution container">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Helen Emmett</a>.
   </div>
 </body>
 </html>

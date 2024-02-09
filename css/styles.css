@@ -1,0 +1,97 @@
+:root {
+    --lime: hsl(163, 72%, 41%);
+    --red: hsl(356, 69%, 56%);
+    --facebook: hsl(208, 92%, 53%);
+    --twitter: hsl(203, 89%, 53%);
+    --instagram-start: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    --youtube: hsl(348, 97%, 39%);
+    --dark-toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --light-toggle: hsl(230, 22%, 74%);
+    --dark-blue: hsl(230, 17%, 14%);
+    --dark-blue-top: hsl(232, 19%, 15%);
+    --dark-desat-blue: hsl(228, 28%, 20%);
+    --desat-blue: hsl(228, 34%, 66%);
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(225, 100%, 98%);
+    --light-gray-blue: hsl(227, 47%, 96%);
+    --dark-gray-blue: hsl(228, 12%, 44%);
+
+    --background: var(--white);
+    --top-bg-pattern: var(--pale-blue);
+    --card-bg: var(--light-gray-blue);
+    --text-primary: var(--dark-blue);
+    --text-secondary: var(--dark-gray-blue);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: var(--background);
+    color: var(--text-primary);
+}
+
+body.dark {
+    --background: var(--dark-blue);
+    --top-bg-pattern: var(--dark-blue-top);
+    --card-bg: var(--dark-desat-blue);
+    --text-primary: var(--white);
+    --text-secondary: var(--desat-blue);
+}
+
+body.light {
+    --background: var(--white);
+    --top-bg-pattern: var(--pale-blue);
+    --card-bg: var(--light-gray-blue);
+    --text-primary: var(--dark-blue);
+    --text-secondary: var(--dark-gray-blue);
+}
+
+/* Typography styles */
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+#header {
+    padding-top: 40px;
+}
+
+#logo {
+
+}
+
+#mode {
+
+}
+
+.container {
+    margin: 0 auto 3rem;
+    padding: 0 1.625rem;
+}
+
+.grid-container {
+
+}
+
+/* Screen sizes over 600px, tablet and large phones */
+@media only screen and (min-width: 37.5rem) {
+
+}
+
+/* Screen sizes over 1150px, laptops and desktops */
+@media only screen and (min-width: 71.875rem) {
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container {
+        max-width: 69.375rem;
+        margin: 0 auto;
+    }
+}
