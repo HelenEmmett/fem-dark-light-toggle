@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/breakpoints.css" />
     <script defer type="text/javascript" src="js/scripts.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,83 +15,106 @@
 
     <title>Frontend Mentor | Social media dashboard with theme switcher</title>
 
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+    </style>
 </head>
 <body>
     <header id="header" class="container">
         <div id="logo">
             <h1>Social Media Dashboard</h1>
-            <h3>Total Followers: 23,004</h3>
+            <p>Total Followers: 23,004</p>
         </div>
-        <div id="mode">Dark Mode</div>
+        <div id="mode">
+            <div class="switch-label">Dark Mode</div>
+            <form>
+                <fieldset class="switch">
+                    <input type="radio" name="mode" id="dark" value="dark" aria-label="Switch to dark mode" />
+                    <input type="radio" name="mode" id="light" value="light" aria-label="Switch to light mode" checked />
+                    <span class="slider"></span>
+                </fieldset>
+            </form>
+        </div>
     </header>
     <main>
         <section class="container grid-container">
-            <div class="card">
+            <div class="card facebook">
+                <div ></div>
                 @nathanf
                 1987
                 Followers
                 12 Today
             </div>
-            <div class="card">
+            <div class="card twitter">
                 @nathanf
                 1044
                 Followers
                 99 Today
             </div>
-            <div class="card">
+            <div class="card instagram">
                 @realnathanf
                 11k
                 Followers
                 1099 Today
             </div>
-            <div class="card">
+            <div class="card youtube">
                 Nathan F.
                 8239
                 Subscribers
                 144 Today
             </div>
         </section>
-        <section class="container grid-container">
+        <section class="container">
             <h2>Overview - Today</h2>
-            <div class="card">
-                Page Views
-                87
-                3%
-            </div>
-            <div class="card">
-                Likes
-                52
-                2%
-            </div>
-            <div class="card">
-                Likes
-                5462
-                2257%
-            </div>
-            <div class="card">
-                Profile Views
-                52k
-                1375%
-            </div>
-            <div class="card">
-                Retweets
-                117
-                303%
-            </div>
-            <div class="card">
-                Likes
-                507
-                553%
-            </div>
-            <div class="card">
-                Likes
-                107
-                19%
-            </div>
-            <div class="card">
-                Total Views
-                1407
-                12%
+            <div class="grid-container">
+                <div class="card">
+                    Page Views
+                    87
+                    3%
+                </div>
+                <div class="card">
+                    Likes
+                    52
+                    2%
+                </div>
+                <div class="card">
+                    Likes
+                    5462
+                    2257%
+                </div>
+                <div class="card">
+                    Profile Views
+                    52k
+                    1375%
+                </div>
+                <div class="card">
+                    Retweets
+                    117
+                    303%
+                </div>
+                <div class="card">
+                    Likes
+                    507
+                    553%
+                </div>
+                <div class="card">
+                    Likes
+                    107
+                    19%
+                </div>
+                <div class="card">
+                    Total Views
+                    1407
+                    12%
+                </div>
             </div>
         </section>
     </main>

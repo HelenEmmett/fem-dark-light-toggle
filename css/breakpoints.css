@@ -1,0 +1,40 @@
+/* Screen sizes over 600px, tablet and large phones */
+@media only screen and (min-width: 37.5rem) {
+    #logo {
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    .switch-label {
+        padding-right: 10px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 24px 30px;
+        grid-template-columns: 50% 50%;
+    }
+
+}
+
+/* Screen sizes over 1150px, laptops and desktops */
+@media only screen and (min-width: 71.875rem) {
+
+    .container {
+        max-width: 69.375rem;
+        margin: 0 auto 46px;
+    }
+
+    .grid-container {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}

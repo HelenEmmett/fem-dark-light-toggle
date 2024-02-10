@@ -75,8 +75,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Website - [Helen Emmett](https://www.your-site.com)
@@ -84,4 +82,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I watched the tutorial from @TheCoderCoder (https://youtu.be/krfUjg0S2uI?si=2moFp_P8fBP3fjjv). Jess explained the javascript and logic very well, and I based my script on her code. I altered the functions, because I'm not yet comfortable with arrow functions. I also wrote my own event listeners, because I didn't quite understand her code. 
