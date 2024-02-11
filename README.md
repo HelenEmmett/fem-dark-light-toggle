@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://helenemmett.github.io/fem-dark-light-toggle/)
+- Solution URL: [View the live solution](https://helenemmett.github.io/fem-dark-light-toggle/)
 
 ## My process
 
