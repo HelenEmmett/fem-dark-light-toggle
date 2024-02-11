@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://helenemmett.github.io/fem-dark-light-toggle/)
 
 ## My process
 
@@ -26,6 +26,7 @@ Users should be able to:
 - CSS custom properties (variables)
 - Flexbox
 - CSS Grid
+- Using rem values for fonts and breakpoints to allow for text scalability
 
 ### What I learned
 
