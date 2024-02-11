@@ -29,12 +29,12 @@
 
 * { box-sizing: border-box; }
 
-html, body {
+body {
     font-family: 'Inter', sans-serif;
     font-size: 100%;
     padding: 0;
     margin: 0;
-    height: 100%;
+    min-height: 100%;
     background: var(--background);
     color: var(--text-primary);
 }
@@ -44,6 +44,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     font-weight: 700;
+    color: var(--text-primary);
 }
 
 h1 {
@@ -62,10 +63,11 @@ h3 {
     margin-bottom: 0;
 }
 
-.logo p {
+#logo p {
     font-size: 14px;
     color: var(--text-secondary);
-    margin-bottom: 24px;
+    margin: 0 0 24px 0;
+    font-weight: 700;
 }
 
 /* Dark/light mode toggle styles */
@@ -148,7 +150,7 @@ input:checked + .slider {
 /* Layout syles */
 
 #header {
-    padding-top: 38px;
+    padding-top: 36px;
 }
 
 #logo {
@@ -157,16 +159,27 @@ input:checked + .slider {
 }
 
 .container {
-    margin: 0 auto 40px;
+    margin: 0 auto 38px;
     padding: 0 1.625rem;
+}
+
+.grid-container {
+    display: grid;
+    gap: 24px 30px;
+    grid-template-columns: auto;
 }
 
 .card {
     background-color: var(--card-bg);
-    min-height: 100px;
     margin-bottom: 10px;
     border-radius: .3125rem;
-    padding: 30px 24px 24px;
+    padding: 26px 24px 24px;
+    color: var(--text-secondary);
+    font-size: 12px;
+}
+
+.card:hover {
+    background-color: var(--card-hover);
 }
 
 .facebook {
@@ -182,35 +195,89 @@ input:checked + .slider {
     border-top: .3125rem solid transparent;
 }
 
+.instagram:hover {
+    background: linear-gradient(var(--card-hover), var(--card-hover)) padding-box, var(--instagram) border-box;
+    border-top: .3125rem solid transparent;
+}
+
 .youtube {
     border-top: .3125rem solid var(--youtube);
 }
 
-.grid-container-centered {
+.flex-container-centered, .flex-container-justify, .flex-container-end {
+    display: flex;
+    align-items: center;
+}
+.flex-container-centered {
+    justify-content: center;
 }
 
-.grid-container-justify {
+.flex-container-justify {
+    justify-content: space-between;
+}
+
+.flex-container-end {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 18px;
+}
+
+.username {
+    padding-left: 10px;
+    font-weight: 700;
 }
 
 .followers-count {
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 14px;
+    color: var(--text-primary);
 }
 
 .followers-txt {
+    text-align: center;
+    letter-spacing: 4px;
+    padding-bottom: 24px;
+    text-transform: uppercase;
 }
 
-.followers-change-up {
+.change-up {
+    color: var(--lime);
+    font-weight: 700;
+    text-align: center;
 }
 
-.followers-change-down {
+.change-up::before {
+    content: url(../images/icon-up.svg);
+    padding-right: 4px;
+}
+
+.change-down {
+    color: var(--red);
+    font-weight: 700;
+    text-align: center;
+}
+
+.change-down::before {
+    content: url(../images/icon-down.svg);
+    padding-right: 4px;
 }
 
 .count {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text-primary);
+    vertical-align: baseline;
 }
 
-.count-change-up {
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
 
-.count-change-down {
+.attribution a {
+    color: var(--text-secondary);
 }
 
 /* Detect if users colour scheme is set to dark mode */
