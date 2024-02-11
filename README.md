@@ -2,19 +2,6 @@
 
 This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 ## Overview
 
 ### The challenge
@@ -28,12 +15,12 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
+- HTML, CSS and Javascript
 - Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties (variables)
@@ -42,44 +29,26 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- How to detect a users preferred colour scheme
+- How to utilise local storage to store the state of chosen colour scheme
+- Researched the best use of rem, em and pixel sizing, with consideration to accessibility and allowing users to use their browser font settings.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Understanding HTML semantics
+- More understanding of accessibility
 
 ### Useful resources / Notes
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/) - This helped me to understand when to use rem, em and pixel sizing. I found the approach of using intuition rather than memorisation a great way to think about it..
+- [Toggle Switch](https://www.w3schools.com/howto/howto_css_switch.asp) - I found this really easy to understand, and follow.
+- [Gradient Borders](https://codyhouse.co/nuggets/css-gradient-borders) - I thought this was a good approach to solve the issue of adding gradients to a border with border-radius.
 
 ## Author
 
-- Website - [Helen Emmett](https://www.your-site.com)
+- Website - [Helen Emmett](https://helenemmett.co.nz/)
 - Frontend Mentor - [@HelenEmmett](https://www.frontendmentor.io/profile/HelenEmmett)
 
 ## Acknowledgments
 
-I watched the tutorial from @TheCoderCoder (https://youtu.be/krfUjg0S2uI?si=2moFp_P8fBP3fjjv). Jess explained the javascript and logic very well, and I based my script on her code. I altered the functions, because I'm not yet comfortable with arrow functions. I also wrote my own event listeners, because I didn't quite understand her code. 
+Thank you to @TheCoderCoder (https://youtu.be/krfUjg0S2uI?si=2moFp_P8fBP3fjjv). Jess explained the javascript and logic very well, and I based my script on her code. I altered the functions, because I'm not yet comfortable with arrow functions. I also wrote my own event listeners, because I didn't quite understand her code. 
