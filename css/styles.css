@@ -173,7 +173,7 @@ input:checked + .slider {
 .card {
     background-color: var(--card-bg);
     border-radius: 5px;
-    padding: 26px 24px 24px;
+    padding: 24px;
     color: var(--text-secondary);
     font-size: calc(12rem / 16);
 }
@@ -232,14 +232,14 @@ input:checked + .slider {
     font-size: calc(52rem / 16);
     font-weight: 700;
     text-align: center;
-    padding-top: 14px;
+    padding-top: 8px;
     color: var(--text-primary);
 }
 
 .followers-txt {
     text-align: center;
     letter-spacing: calc(4rem / 16);
-    padding-bottom: 24px;
+    padding-bottom: 20px;
     text-transform: uppercase;
 }
 
